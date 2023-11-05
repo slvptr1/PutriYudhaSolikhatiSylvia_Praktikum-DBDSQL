@@ -25,7 +25,14 @@ Cara yang dapat digunakan untuk membuat skema dengan nama PENJUALANDVD bisa deng
 Apabila skema sudah dibuat, jalankan dan lihat output yang dikeluarkan. Untuk menggunakan database, gunakan query **use nama_schema**. Blok baris yang didalamnya terdapat query use PENJUALANDVD, kemudian jalankan.
 
 2.  **Implementasi syntax CREATE pada semua table**
-![CREATE pada table](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(239).png)
+![CREATE Table Kecamatan](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(324).png)
+![CREATE Table Movie ](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(325).png)
+![CREATE Table Genre ](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(326).png)
+![CREATE Table Kelurahan ](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(327).png)
+![CREATE Table Genre_Movie ](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(328).png)
+![CREATE Table Pelanggan ](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(329).png)
+![CREATE Table Kontak Pelanggan ](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(330).png)
+![CREATE Table Transaksi ](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(331).png)
 
 📌 Cara yang digunakan untuk pengimplementasian syntax CREATE pada semua table yaitu dengan.
 >**CREATE TABLE** nama_tabel (
@@ -34,12 +41,6 @@ Apabila skema sudah dibuat, jalankan dan lihat output yang dikeluarkan. Untuk me
 > kolom3 tipe_data3,
 > PRIMARY KEY (kolom_utama)
 >);
-
-📢 Membuat tabel dalam SQL melibatkan beberapa langkah dasar: 📢
-- Tentukan Nama Tabel: Pilih nama untuk tabel yang akan dibuat.
-- Tentukan Kolom: Tentukan kolom-kolom yang akan ada di dalam tabel. Untuk setiap kolom, perlu menentukan tipe data yang akan disimpan (seperti VARCHAR, INT, DATE, dll.) dan apakah kolom tersebut dapat menerima nilai NULL atau tidak.
-- Tentukan Kunci Primer (Primary Key): Pilih satu atau beberapa kolom yang akan menjadi kunci utama (primary key) yang unik untuk setiap baris dalam tabel. Digunakan untuk mengidentifikasi setiap baris secara unik.
-- Aturan Unik (Constraints): Tambahkan aturan unik atau aturan lainnya ke dalam tabel, seperti kunci asing (foreign key) untuk menghubungkannya dengan tabel lain, dan aturan seperti batasan CHECK untuk memvalidasi data yang dimasukkan.
 
 **Pengecekan table PELANGGAN kolom JENIS_KELAMIN beri Check antara 'P' dan 'L'**
 
@@ -53,12 +54,6 @@ Apabila skema sudah dibuat, jalankan dan lihat output yang dikeluarkan. Untuk me
  
  Syntax tersebut adalah perintah SQL yang digunakan untuk menambahkan sebuah batasan (constraint) jenis kelamin pada kolom JENIS_KELAMIN dalam tabel pelanggan. Constraint ini memastikan bahwa nilai yang dimasukkan ke dalam kolom JENIS_KELAMIN hanya boleh 'P' atau 'L', yang mengindikasikan jenis kelamin "Perempuan" atau "Laki-laki".
 
-### 👾 Bedah Syntax 👾 ###
-
-- ALTER TABLE pelanggan: Merupakan perintah yang memberi tahu SQL bahwa akan dilakukan perubahan pada tabel pelanggan.
-- ADD CONSTRAINT jenis_kelamin_check: Merupakan perintah yang menambahkan constraint baru ke tabel. Constraint ini dinamakan jenis_kelamin_check.
-- CHECK (JENIS_KELAMIN IN ('P', 'L')): Menentukan aturan bahwa kolom JENIS_KELAMIN hanya boleh memiliki nilai 'P' atau 'L'. Jika dimasukkan nilai lain selain 'P' atau 'L' ke kolom JENIS_KELAMIN, maka akan terjadi kesalahan.
-
 3. Implementasi syntax **ALTER** untuk table **MOVIE** dengan **merubah tipe data kolom TAHUN_RILIS menjadi tipe data YEAR(4)**
 ![Perubahan Tipe Data Kolom TAHUN_RILIS menjadi Tipe Data YEAR(4)](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(240).png)
 
@@ -67,31 +62,6 @@ Apabila skema sudah dibuat, jalankan dan lihat output yang dikeluarkan. Untuk me
  MODIFY COLUMN tahun_rilis year;
  
 ✨ Berikut adalah penjelasan dari syntax tersebut:
-
  Syntax tersebut adalah perintah SQL yang digunakan untuk mengubah tipe data kolom tahun_rilis dalam tabel movie menjadi YEAR. Ini mengubah tipe data kolom tersebut sehingga hanya akan menerima tahun sebagai nilai (misalnya, 2023) dan akan membatasi jenis data yang dapat dimasukkan ke dalam kolom tersebut.
 
-### 👾 Bedah Syntax 👾 ###
-- ALTER TABLE movie: Merupakan perintah yang memberi tahu SQL bahwa akan dibuat perubahan pada tabel movie.
-- MODIFY COLUMN tahun_rilis year: Merupakan perintah yang memberi tahu SQL akan ada pengubahan kolom tahun_rilis. Dengan kata lain, sedang dilakukan modifikasi pada kolom tersebut.
-- year: Merupakan perintah yang menentukan tipe data baru yang akan digunakan untuk kolom tahun_rilis. Dalam hal ini, tipe data yang ditentukan adalah YEAR. Dengan mengubah tipe data menjadi YEAR, kolom tahun_rilis hanya akan menerima tahun sebagai nilai (misalnya, 2023) dan akan membatasi jenis data yang dapat dimasukkan ke dalam kolom tersebut.
-
 > **Kode selengkapnya pada link berikut** [https://github.com/slvptr1/PutriYudhaSolikhatiSylvia_Praktikum-DBDSQL/blob/main/PENJUALANDVD.sql]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
