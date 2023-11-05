@@ -30,10 +30,6 @@ Berikut adalah beberapa langkah-langkah beserta tangkapan layar pengerjaan tugas
 >create database AKADEMIK;
 use akademik;
 
-##### 👾 Bedah Syntax 👾 #####
-- CREATE DATABASE AKADEMIK;: Merupakan perintah SQL yang digunakan untuk membuat database baru dengan nama "AKADEMIK". Setelah perintah ini dijalankan, database dengan nama "AKADEMIK" akan dibuat dan siap digunakan. Ini adalah langkah pertama dalam pembuatan database.
-- USE akademik;: Merupakan perintah yang digunakan untuk beralih ke penggunaan (use) database yang telah dibuat. Dengan perintah ini, database yang diatur akan digunakan dalam sesi SQL selanjutnya menjadi "AKADEMIK". Artinya, semua perintah SQL selanjutnya akan berlaku untuk database "AKADEMIK" hingga Anda mengganti penggunaan database lagi dengan perintah USE yang lain.
-
 ##### B. Membuat Table Strata, Seleksi_Masuk, Fakultas, Jurusan, Program_Studi, dan Mahasiswa #####
 ![Pembuatan Table Database](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(242).png)
 ![Pembuatan Table Database](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(243).png)
@@ -46,12 +42,6 @@ use akademik;
 > PRIMARY KEY (kolom_utama)
 >);
 
-📢 Membuat table dalam SQL melibatkan beberapa langkah dasar: 📢
-- Tentukan Nama Tabel: Pilih nama untuk tabel yang akan dibuat.
-- Tentukan Kolom: Tentukan kolom-kolom yang akan ada di dalam tabel. Untuk setiap kolom, perlu menentukan tipe data yang akan disimpan (seperti VARCHAR, INT, DATE, dll.) dan apakah kolom tersebut dapat menerima nilai NULL atau tidak.
-- Tentukan Kunci Primer (Primary Key): Pilih satu atau beberapa kolom yang akan menjadi kunci utama (primary key) yang unik untuk setiap baris dalam tabel. Digunakan untuk mengidentifikasi setiap baris secara unik.
-- Aturan Unik (Constraints): Tambahkan aturan unik atau aturan lainnya ke dalam tabel, seperti kunci asing (foreign key) untuk menghubungkannya dengan tabel lain, dan aturan seperti batasan CHECK untuk memvalidasi data yang dimasukkan.
-
 ##### C. Insert data ke dalam Table #####
 ![Insert data](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(245).png)
 
@@ -59,21 +49,11 @@ use akademik;
 >INSERT INTO nama_table (kolom1, kolom2, kolom3, ...)
 VALUES (nilai1, nilai2, nilai3, ...);
 
-##### 👾 Bedah Syntax 👾 #####
-- INSERT INTO: Ini adalah perintah SQL yang digunakan untuk menyisipkan (insert) data baru ke dalam tabel.
-- nama_tabel: Ini adalah nama tabel di mana Anda ingin memasukkan data baru.
-- (kolom1, kolom2, kolom3, ...): Ini adalah daftar kolom-kolom di dalam tabel yang akan diisi dengan nilai. Anda hanya perlu mencantumkan kolom-kolom yang ingin Anda isi dengan data baru.
-- VALUES (nilai1, nilai2, nilai3, ...): Ini adalah daftar nilai yang akan dimasukkan ke dalam kolom-kolom yang telah disebutkan sebelumnya. Nilai-nilai ini harus sesuai dengan tipe data dan urutan kolom yang dijelaskan dalam perintah INSERT INTO.
-
 ##### D. Mengambil Semua Data dari Table #####
 ![Mengambil Data](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(246).png)
  
  📌 **Cara yang digunakan untuk pengimplementasian syntax SELECT * FROM; pada semua table yaitu dengan.**
 >SELECT * FROM nama_table;
-
-##### 👾 Bedah Syntax 👾 #####
-- SELECT *: Merupakan perintah SQL yang digunakan untuk memilih (select) data dari table. Tanda asterisk (*) digunakan untuk menunjukkan bahwa semua kolom pada table akan diambil.
-- FROM nama_table: Merupakan klausa yang digunakan untuk menunjukkan table yang ingin diambil datanya. 
 
 ##### 🤏 Implementasi Pada Soal Latihan 🤏 #####
 ![Select * From Mahasiswa;](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(246).png)
