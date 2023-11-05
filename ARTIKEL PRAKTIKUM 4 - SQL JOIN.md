@@ -60,27 +60,13 @@ Berikut adalah beberapa langkah-langkah beserta tangkapan layar pengerjaan tugas
 📌 **Pembuatan database akademik dengan**
 >create database sampel_university;
 
-##### 👾 Bedah Syntax 👾 #####
-- create database sampel_university;  
-Merupakan perintah SQL yang digunakan untuk membuat database baru dengan nama "sampel_university". 
-
 ##### B. Menggunakan database sampel_university #####
 ![Menggunakan database sampel_university](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(262).png)
 
 📌 **Cara yang digunakan untuk menggunakan database sampel_university dengan**
 > use sampel_university;
 
-##### 👾 Bedah Syntax 👾 #####
-- USE akademik; 
-Merupakan perintah yang digunakan untuk beralih ke penggunaan (use) database yang telah dibuat. Dengan perintah ini, database yang diatur akan digunakan dalam sesi SQL selanjutnya menjadi "sampel_akademik". 
-
 ##### C. Membuat table classroom, department, course, instructor, section, teaches, student, takes, advisor, time_slot, dan prereq #####
-
-📢 Membuat table dalam SQL melibatkan beberapa langkah dasar: 📢
-- Tentukan Nama Tabel: Pilih nama untuk tabel yang akan dibuat.
-- Tentukan Kolom: Tentukan kolom-kolom yang akan ada di dalam tabel. Untuk setiap kolom, perlu menentukan tipe data yang akan disimpan (seperti VARCHAR, INT, DATE, dll.) dan apakah kolom tersebut dapat menerima nilai NULL atau tidak.
-- Tentukan Kunci Primer (Primary Key): Pilih satu atau beberapa kolom yang akan menjadi kunci utama (primary key) yang unik untuk setiap baris dalam tabel. Digunakan untuk mengidentifikasi setiap baris secara unik.
-- Aturan Unik (Constraints): Tambahkan aturan unik atau aturan lainnya ke dalam tabel, seperti kunci asing (foreign key) untuk menghubungkannya dengan tabel lain, dan aturan seperti batasan CHECK untuk memvalidasi data yang dimasukkan.
 
 **Berikut beberapa table yang dibuat pada Modul 8**
 1. Table classroom
@@ -136,12 +122,6 @@ VALUES (nilai1, nilai2, nilai3, ...);
 ![Insert into advisor values](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(291).png)
 11. Insert into prereq values
 ![Insert into prereq values](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(292).png)
-
-##### 👾 Bedah Syntax 👾 #####
-- INSERT INTO: Ini adalah perintah SQL yang digunakan untuk menyisipkan (insert) data baru ke dalam tabel.
-- nama_tabel: Ini adalah nama tabel di mana Anda ingin memasukkan data baru.
-- (kolom1, kolom2, kolom3, ...): Ini adalah daftar kolom-kolom di dalam tabel yang akan diisi dengan nilai. Anda hanya perlu mencantumkan kolom-kolom yang ingin Anda isi dengan data baru.
-- VALUES (nilai1, nilai2, nilai3, ...): Ini adalah daftar nilai yang akan dimasukkan ke dalam kolom-kolom yang telah disebutkan sebelumnya. Nilai-nilai ini harus sesuai dengan tipe data dan urutan kolom yang dijelaskan dalam perintah INSERT INTO.
 
 ##### D. Menampilkan semua nama Mahasiswa beserta nama department #####
 ![Menampilkan semua nama Mahasiswa beserta nama department](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(276).png)
