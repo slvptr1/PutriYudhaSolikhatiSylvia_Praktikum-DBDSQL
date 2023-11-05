@@ -24,15 +24,26 @@ dibawah ini
 
 Berikut adalah beberapa langkah-langkah beserta tangkapan layar pengerjaan tugas latihan:
 ##### A. Membuat database baru dengan CREATE DATABASE AKADEMIK; kemudian USE AKADEMIK; #####
-![Create + Use Database Akademik](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(242).png)
 
-📌 **Pembuatan database akademik dengan**
+- Membuat database akademik
+
+![Create Database Akademik](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(303).png)
+
+- Menggunakan database akademik
+
+![Menggunakan Database Akademik](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(304).png)
+
+📌 **Pembuatan database akademik dan menggunakannya dengan**
 >create database AKADEMIK;
 use akademik;
 
 ##### B. Membuat Table Strata, Seleksi_Masuk, Fakultas, Jurusan, Program_Studi, dan Mahasiswa #####
-![Pembuatan Table Database](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(242).png)
-![Pembuatan Table Database](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(243).png)
+![Pembuatan Table Strata](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(305).png)
+![Pembuatan Table Seleksi Masuk](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(306).png)
+![Pembuatan Table Fakultas](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(307).png)
+![Pembuatan Table Jurusan](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(308).png)
+![Pembuatan Table Program Studi](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(309).png)
+![Pembuatan Table Mahasiswa](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(310).png)
 
 📌 **Cara yang digunakan untuk pengimplementasian syntax CREATE pada semua table yaitu dengan.**
 > CREATE TABLE nama_tabel (
@@ -43,15 +54,19 @@ use akademik;
 >);
 
 ##### C. Insert data ke dalam Table #####
-![Insert data](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(245).png)
+![Insert data ke dalam Fakultas](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(311).png)
+![Insert data ke dalam Strata](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(312).png)
+![Insert data ke dalam Jurusan](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(313).png)
+![Insert data ke dalam Seleksi Masuk](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(314).png)
+![Insert data ke dalam Program Studi](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(315).png)
+![Insert data ke dalam Mahasiswa](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(316).png)
 
 📌 **Cara yang digunakan untuk pengimplementasian syntax INSERT INTO pada table yaitu dengan.**
 >INSERT INTO nama_table (kolom1, kolom2, kolom3, ...)
 VALUES (nilai1, nilai2, nilai3, ...);
 
 ##### D. Mengambil Semua Data dari Table #####
-![Mengambil Data](https://github.com/slvptr1/IniGambarPrakSQL/blob/main/Screenshot%20(246).png)
- 
+
  📌 **Cara yang digunakan untuk pengimplementasian syntax SELECT * FROM; pada semua table yaitu dengan.**
 >SELECT * FROM nama_table;
 
