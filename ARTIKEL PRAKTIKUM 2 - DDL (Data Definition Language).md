@@ -62,6 +62,7 @@ Apabila skema sudah dibuat, jalankan dan lihat output yang dikeluarkan. Untuk me
  MODIFY COLUMN tahun_rilis year;
  
 ✨ Berikut adalah penjelasan dari syntax tersebut:
+
  Syntax tersebut adalah perintah SQL yang digunakan untuk mengubah tipe data kolom tahun_rilis dalam tabel movie menjadi YEAR. Ini mengubah tipe data kolom tersebut sehingga hanya akan menerima tahun sebagai nilai (misalnya, 2023) dan akan membatasi jenis data yang dapat dimasukkan ke dalam kolom tersebut.
 
 > **Kode selengkapnya pada link berikut** [https://github.com/slvptr1/PutriYudhaSolikhatiSylvia_Praktikum-DBDSQL/blob/main/PENJUALANDVD.sql]
